@@ -1,18 +1,6 @@
-
-/* Your CSS Code here. */#holder {
-  /* 1. Use flexbox */
-  display: flex;
-
-  /* 2. Items appear in a row (default for flex-direction) */
-  /* No need to explicitly set flex-direction: row; */
-
-  /* 3. Items are evenly placed in the row */
-  justify-content: space-around;
-
-  /* 4. If more items are added, they go on the next row and don't squash */
-  flex-wrap: wrap;
-
-  /* Optional: Minimum height for visibility */
-  min-height: 200px;
-  border: 1px solid #ccc;
+.holder {
+    display: flex;           /* enables flexbox */
+    flex-wrap: wrap;         /* allows items to go to the next line */
+    justify-content: space-around;  /* evenly spaces items in the row */
+    gap: 10px;               /* optional: adds space between items */
 }
